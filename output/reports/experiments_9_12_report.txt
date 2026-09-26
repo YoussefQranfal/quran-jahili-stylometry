@@ -1,0 +1,59 @@
+======================================================================
+EXPERIMENTS 9-12: HIZB GROUPINGS + RANDOM SAMPLING
+======================================================================
+
+EXPERIMENT 9: 60 HIZB + 35 POETS
+----------------------------------------
+  n_entities: 95
+  n_clusters: 4
+  n_outliers: 0
+  silhouette: 0.7385313510894775
+  Hizb in mixed clusters: 4 / 60 (6.7%)
+
+EXPERIMENT 10: 30 HIZB-PAIRS + 35 POETS
+----------------------------------------
+  n_entities: 65
+  n_clusters: 2
+  n_outliers: 0
+  silhouette: 0.8922486305236816
+  Pairs in mixed clusters: 5 / 30 (16.7%)
+
+EXPERIMENT 11: 10x RANDOM SINGLE SURAH
+----------------------------------------
+ trial  surah_number  surah_name  is_outlier  poets_sharing_cluster  n_clusters_total
+     1            81   At-Takwir        True                      0                 4
+     2             5   Al-Maaida       False                      9                 3
+     3            41    Fussilat       False                      9                 3
+     4            70 Al-Ma'aarij       False                      9                 2
+     5            11         Hud       False                      9                 3
+     6            46    Al-Ahqaf       False                      9                 2
+     7            71        Nooh       False                      9                 3
+     8            67     Al-Mulk       False                     20                 2
+     9            48     Al-Fath       False                      9                 2
+    10            12       Yusuf       False                      9                 3
+  Outliers: 1/10
+
+EXPERIMENT 12: 10x RANDOM 10-SURAH BUNDLE
+----------------------------------------
+ trial                    surah_numbers  is_outlier  poets_sharing_cluster  n_clusters_total
+     1    3,16,21,23,34,38,46,63,86,112       False                      9                 3
+     2    3,14,16,19,30,37,59,71,75,101       False                      9                 3
+     3  13,32,46,47,59,68,81,85,105,109       False                      9                 3
+     4  8,15,25,38,58,61,65,101,103,108       False                      9                 3
+     5 17,24,28,38,51,54,68,100,109,112       False                      9                 4
+     6    5,34,41,48,62,69,71,74,92,114       False                      9                 3
+     7   7,12,14,18,45,57,71,77,100,114       False                      9                 4
+     8     7,10,16,31,50,52,53,69,80,87       False                      9                 3
+     9  26,67,72,73,77,84,93,95,102,105       False                      9                 3
+    10     1,3,16,22,51,71,79,84,88,112       False                      9                 3
+  Outliers: 0/10
+
+HOW TO READ THIS
+----------------------------------------
+  Experiments 9-10 test whether finer (hizb) or coarser (hizb-pair)
+  groupings than whole surahs change the separation pattern seen
+  in Experiment 8. Experiments 11-12 test how consistent the result
+  is across different random samples -- if outlier/mixing rates vary
+  a lot across the 10 trials, that means the result is sensitive to
+  which specific text is chosen, not a stable overall pattern.
+

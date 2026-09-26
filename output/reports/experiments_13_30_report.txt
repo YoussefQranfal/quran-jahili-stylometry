@@ -1,0 +1,65 @@
+======================================================================
+EXPERIMENTS 14-30: FULL REPORT
+======================================================================
+
+EXPERIMENT 14: SYNTHETIC CONTROL TEST
+----------------------------------------
+  Outliers: 0/10 (Experiment 11 comparison: 1/10)
+  Shared cluster with poets: 10/10 (Experiment 11 comparison: 9/10)
+
+EXPERIMENTS 15-17: QURANIC UNITS ALONE
+----------------------------------------
+  Exp 15 (60 hizb): {'n_entities': 60, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.8822755813598633}
+  Exp 16 (30 hizb-pairs): {'n_entities': 30, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.5434573888778687}
+  Exp 17 (114 surahs): {'n_entities': 114, 'n_clusters': 9, 'n_outliers': 3, 'silhouette': 0.6625418663024902}
+
+EXPERIMENT 18: ALLPOETS VS QURAN (WHOLE) -- DIRECT SIMILARITY
+----------------------------------------
+  Cosine similarity: 0.9538
+
+EXPERIMENTS 19-21: ALLPOETS + SURAHS / HIZB / HIZB-PAIRS
+----------------------------------------
+  Exp 19 (+114 surahs): {'n_entities': 115, 'n_clusters': 4, 'n_outliers': 0, 'silhouette': 0.6754793524742126}, AllPoets cluster=1
+  Exp 20 (+60 hizb): {'n_entities': 61, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.8704106211662292}, AllPoets cluster=0
+  Exp 21 (+30 hizb-pairs): {'n_entities': 31, 'n_clusters': 4, 'n_outliers': 0, 'silhouette': 0.661445677280426}, AllPoets cluster=3
+
+EXPERIMENT 22: QURAN VS INDIVIDUAL POETS (NOT AVERAGED)
+----------------------------------------
+            poet  cosine_similarity
+     حاتم الطائي           0.967384
+  المتلمس الضبعي           0.967367
+   الطفيل الغنوي           0.967092
+ قيس بن الحدادية           0.966841
+   عروة بن الورد           0.966775
+       تأبط شراً           0.965919
+زيد الخيل الطائي           0.965332
+      أوس بن حجر           0.964974
+النابغة الذبياني           0.964899
+  Mean: 0.9663
+
+EXPERIMENTS 23-24: QURAN (WHOLE) VS 35VECTOR / 19VECTOR
+----------------------------------------
+  Exp 23 (vs 35Vector): 0.9615
+  Exp 24 (vs 19Vector): 0.9718
+
+EXPERIMENTS 25-30: QURANIC UNITS VS 35VECTOR / 19VECTOR
+----------------------------------------
+  Experiment 25: {'n_entities': 115, 'n_clusters': 7, 'n_outliers': 0, 'silhouette': 0.6310712695121765}, vector status: Cluster 6
+  Experiment 26: {'n_entities': 115, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.7491466403007507}, vector status: Cluster 2
+  Experiment 27: {'n_entities': 61, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.8257860541343689}, vector status: Cluster 0
+  Experiment 28: {'n_entities': 61, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.8494846820831299}, vector status: Cluster 0
+  Experiment 29: {'n_entities': 31, 'n_clusters': 4, 'n_outliers': 0, 'silhouette': 0.6783882975578308}, vector status: Cluster 0
+  Experiment 30: {'n_entities': 31, 'n_clusters': 3, 'n_outliers': 0, 'silhouette': 0.6264086365699768}, vector status: Cluster 0
+
+HOW TO READ THIS
+----------------------------------------
+  Exp 14 is the key methodological check on Exp 11: if synthetic
+  nonsense text gets absorbed into poet clusters at a similar rate
+  to real surahs, that confirms the earlier finding was about
+  clustering mechanics, not genuine stylistic overlap.
+  Exp 18-30 apply the same 'lone point' reasoning to AllPoets,
+  35Vector, and 19Vector -- each is a single aggregate point facing
+  many Quranic units, so cluster membership alone should be read
+  alongside the direct similarity numbers (Exp 18, 23, 24), not
+  instead of them.
+

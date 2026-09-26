@@ -1,0 +1,36 @@
+======================================================================
+EXPERIMENT 8: WELL-DOCUMENTED POETS + 114 SEPARATE SURAHS
+======================================================================
+
+METHOD
+----------------------------------------
+  Threshold: total verses > 286 (largest surah's verse count)
+  Well-documented poets: 35 of 260
+  Each of the 114 surahs entered as its own separate author
+
+RESULT
+----------------------------------------
+  n_entities: 149
+  n_clusters: 9
+  n_outliers: 3
+  silhouette: 0.679192304611206
+  Surah-only clusters: 8
+  Mixed clusters (poets + surahs): 0
+  Surahs in mixed clusters: 0 / 114 (0.0%)
+  Surahs as outliers: 3 / 114
+
+COMPARISON: ALL POETS vs. WELL-DOCUMENTED POETS ONLY
+----------------------------------------
+                                         variant  n_poets surahs_in_mixed_clusters surahs_as_outliers silhouette
+     All 260 poets + 114 surahs (original Exp 2)      260           30 / 114 (26%)            1 / 114      0.469
+35 well-documented poets + 114 surahs (this run)       35             0 / 114 (0%)            3 / 114      0.679
+
+HOW TO READ THIS
+----------------------------------------
+  Same logic as Experiment 7. If restricting to well-documented
+  poets here also SHRINKS the mixed-cluster percentage (down from
+  26%), that's a second, independent piece of evidence for the
+  sample-size explanation. If it stays flat or grows, that's a
+  second piece of evidence against it -- consistent with what the
+  minor-poets-only test (which INCREASED to 39%) already suggested.
+

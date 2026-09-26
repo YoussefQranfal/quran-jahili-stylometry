@@ -1,0 +1,67 @@
+======================================================================
+HIDDEN STYLISTIC SCHOOLS OF PRE-ISLAMIC POETRY - REPRODUCTION
+======================================================================
+
+1. DATASET
+----------------------------------------
+  n_poems: 2328
+  n_poets: 260
+  median_word_count: 40.0
+  mean_word_count: 76.07817869415807
+  median_verse_count: 8.0
+  total_tokens: 177110
+  max_poems_per_poet: 157
+  poets_with_one_poem: 125
+  poets_with_10plus: 54
+
+2. SIMILARITY STATISTICS (proposed method)
+----------------------------------------
+  n_pairs: 33670
+  mean: 0.7986351847648621
+  std: 0.23663963377475739
+  min: 0.009445760399103165
+  max: 0.9999999403953552
+  median: 0.8915810585021973
+  [paper: mean=0.799, std=0.237, median=0.892]
+
+3. CLUSTERING RESULTS
+----------------------------------------
+  silhouette: 0.42085936665534973
+  calinski_harabasz: 395.6606750488281
+  davies_bouldin: 0.7494068260803325
+  n_clusters: 13
+  n_outliers: 37
+  n_clustered: 223
+  [paper: 12 clusters, 28 outliers, silhouette=0.469]
+
+4. BASELINE COMPARISON
+----------------------------------------
+          method  n_clusters  n_outliers  silhouette
+SBERT (proposed)          13          37    0.420859
+          TF-IDF           4           5    0.379970
+    Char n-grams           3           0    0.718992
+      NMF Topics          20           3    0.803145
+  [paper: TF-IDF 3cl/0.442, Char n-grams 3cl/0.704, NMF 21cl/0.817]
+
+5. VALIDATION
+----------------------------------------
+  Stability: 64 runs, ARI=0.407+/-0.240
+  [paper: ARI=0.500+/-0.249]
+  Randomization: 100 shuffles, mean_clusters=5.8
+  [paper: shuffled mean=6.5+/-5.3, p<0.01]
+
+  Metadata enrichment:
+    Cluster 1 (n=5): dominant tribe=Unknown (80%)
+    Cluster 6 (n=64): dominant tribe=Unknown (84%)
+    Cluster 5 (n=28): dominant tribe=Unknown (79%)
+    Cluster 9 (n=9): dominant tribe=Unknown (67%)
+    Cluster 0 (n=12): dominant tribe=Unknown (50%)
+    Cluster 3 (n=6): dominant tribe=Unknown (33%)
+    Cluster 7 (n=14): dominant tribe=Hamdani (29%)
+    Cluster 8 (n=9): dominant tribe=Unknown (78%)
+    Cluster 11 (n=8): dominant tribe=Unknown (75%)
+    Cluster 10 (n=5): dominant tribe=Unknown (100%)
+    Cluster 4 (n=26): dominant tribe=Unknown (50%)
+    Cluster 12 (n=24): dominant tribe=Unknown (75%)
+    Cluster 2 (n=13): dominant tribe=Fazari (38%)
+

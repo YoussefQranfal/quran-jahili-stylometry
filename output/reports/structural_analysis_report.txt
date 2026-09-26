@@ -1,0 +1,43 @@
+======================================================================
+QURAN TEXT: STRUCTURAL & STATISTICAL PROPERTIES
+======================================================================
+
+Q1: LEXICAL RICHNESS
+----------------------------------------
+  quran_total_words: 77878
+  quran_unique_words: 14757
+  quran_hapax_legomena: 8661
+  quran_hapax_rate: 0.5869
+  quran_standardized_ttr: 0.5803
+  poetry_total_words: 177043
+  poetry_unique_words: 53881
+  poetry_hapax_legomena: 34719
+  poetry_hapax_rate: 0.6444
+  poetry_standardized_ttr: 0.7716
+
+Q2: WORD-LENGTH DISTRIBUTION
+----------------------------------------
+  quran_mean_word_length: 4.209
+  quran_median_word_length: 4.0
+  quran_std_word_length: 1.536
+  poetry_mean_word_length: 4.167
+  poetry_median_word_length: 4.0
+  poetry_std_word_length: 1.471
+  ks_statistic: 0.0305
+  ks_pvalue: 4.1650675930673544e-44
+
+Q4: VERSE-ENDING CONSISTENCY (FAWASIL)
+----------------------------------------
+  quran_mean_consecutive_match_rate: 0.7072
+  quran_shuffled_baseline_rate: 0.5695
+  quran_n_surahs_analyzed: 114
+  poetry_mean_consecutive_match_rate: 0.1383
+  poetry_shuffled_baseline_rate: 0.3117
+  poetry_n_poems_analyzed: 401
+
+HOW TO READ THIS
+----------------------------------------
+  Each question above was tested on its own terms, with no
+  predetermined conclusion. Some results may look notable,
+  others unremarkable -- both are reported the same way.
+

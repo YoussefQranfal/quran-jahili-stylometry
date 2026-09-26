@@ -1,0 +1,43 @@
+======================================================================
+EXPERIMENT 7: WELL-DOCUMENTED POETS ONLY + QURAN
+======================================================================
+
+METHOD
+----------------------------------------
+  Threshold: total verses > 286 (largest surah's verse count)
+  Qualifying poets: 35 of 260
+  Their verse-count range: 288 to 3495
+
+RESULT
+----------------------------------------
+  n_entities: 36
+  n_clusters: 3
+  n_outliers: 5
+  silhouette: 0.5843770503997803
+  Quran's cluster: 0
+  Poets sharing it: 9
+    ['أوس بن حجر', 'الطفيل الغنوي', 'المتلمس الضبعي', 'النابغة الذبياني', 'تأبط شراً', 'حاتم الطائي', 'زيد الخيل الطائي', 'عروة بن الورد', 'قيس بن الحدادية']
+  Top 5 nearest poets:
+    حاتم الطائي: 0.9674
+    المتلمس الضبعي: 0.9674
+    الطفيل الغنوي: 0.9671
+    قيس بن الحدادية: 0.9668
+    عروة بن الورد: 0.9668
+
+COMPARISON ACROSS POET-POOL VARIANTS
+----------------------------------------
+                                 variant  n_poets        quran_cluster top_similarity
+          All 260 poets (original Exp 1)      260 Cluster 1 (19 poets)          0.976
+         241 poets (19 closest excluded)      241   Outlier (48 poets)          0.972
+35 well-documented poets only (this run)       35  Cluster 0 (9 poets)         0.9674
+
+HOW TO READ THIS
+----------------------------------------
+  This is the complement of the earlier size-matched (minor-poet)
+  test, which found MORE overlap when restricted to minor poets.
+  If overlap here (well-documented poets only) is markedly LOWER
+  than the original all-260 result, that supports the sample-size
+  explanation: minor poets were driving the earlier overlap. If
+  overlap persists here too, that argues against it -- meaning
+  something other than sample size explains the pattern.
+

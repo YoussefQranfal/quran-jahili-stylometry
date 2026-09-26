@@ -1,0 +1,5 @@
+model,model_id,dim,sim_mean,sim_std,sim_min,n_clusters,n_outliers,silhouette,calinski_harabasz,davies_bouldin,embed_time_s
+Arabic-SBERT-100K (current),akhooli/Arabic-SBERT-100K,768,0.8003,0.236,0.0104,10,62,0.4714,420.8,0.6554,34.0
+Multilingual-MiniLM (384d),sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,384,0.8697,0.0867,0.1947,7,95,0.3783,325.6,0.8551,40.2
+Multilingual-mpnet (768d),sentence-transformers/paraphrase-multilingual-mpnet-base-v2,768,0.9071,0.0633,0.44,8,88,0.2543,35.8,0.9956,43.4
+Multilingual-E5-large (1024d),intfloat/multilingual-e5-large,1024,0.9731,0.0165,0.8775,3,8,0.6053,596.1,0.488,93.3

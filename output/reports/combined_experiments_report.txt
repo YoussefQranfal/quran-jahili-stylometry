@@ -1,0 +1,43 @@
+======================================================================
+COMBINED CLUSTERING: POETS + QURAN
+======================================================================
+
+EXPERIMENT 1: 260 poets + Quran as ONE author (N=261)
+--------------------------------------------------
+  n_entities: 261
+  n_clusters: 13
+  n_outliers: 40
+  silhouette: 0.46884259581565857
+  Quran's cluster: 1
+  Poets sharing that cluster: 19
+    ['أبو بثينه الهذلي', 'أبو حسان الفزاري', 'أوس الهجيمي', 'ابن شعواء الفزاري', 'ابن كلاب العقيلي', 'الأشعث الجاشي', 'الأعرج المري', 'السليك بن السلكة', 'الكلحبة العرني', 'المثلم الفزاري', 'المعان بن روق', 'النابغة التغلبي', 'الهجرس التغلبي', 'امرؤ القيس الزهيري', 'جبار الفزاري', 'سنان المري', 'نهيكة الفزاري', 'هند الفزارية', 'هند بنت الخس']
+  Top 5 most similar poets to the Quran (cosine similarity):
+    ابن شعواء الفزاري: 0.9762
+    نهيكة الفزاري: 0.9754
+    بدر الفزاري: 0.9723
+    دوسر بن هذيل: 0.9719
+    الهجرس التغلبي: 0.9707
+
+EXPERIMENT 2: 260 poets + 114 individual surahs (N=374)
+--------------------------------------------------
+  n_entities: 374
+  n_clusters: 12
+  n_outliers: 11
+  silhouette: 0.46887871623039246
+  Surah-only clusters (no poets): 3
+  Mixed clusters (poets + surahs together): 4
+  Surahs classified as outliers: 1 / 114
+
+HOW TO READ THIS
+--------------------------------------------------
+  Poetry and Quranic text are different genres, eras, and
+  registers on their face. If the Quran/surahs land in their
+  own separate cluster(s), that is the EXPECTED result -- it
+  mainly confirms genre difference, not anything about
+  authorship. The more informative signal is the opposite:
+  any poet landing in the same cluster as the Quran, or
+  surahs scattering broadly across poet clusters instead of
+  staying together, would be the surprising/notable finding.
+  This method measures writing-style similarity; it cannot
+  establish or rule out claims about authorship.
+

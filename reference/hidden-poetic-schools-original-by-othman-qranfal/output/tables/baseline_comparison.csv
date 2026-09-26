@@ -1,0 +1,4 @@
+method,n_clusters,n_outliers,silhouette
+TF-IDF,3,10,0.44181618094444275
+Char n-grams,3,1,0.70352703332901
+NMF Topics,21,16,0.8165370225906372

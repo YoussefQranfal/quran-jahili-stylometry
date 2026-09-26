@@ -1,0 +1,68 @@
+======================================================================
+QURAN SURAH STYLISTIC CLUSTERING -- SUMMARY
+======================================================================
+
+METHOD
+----------------------------------------
+  Same pipeline as the pre-Islamic poetry paper: each ayah
+  embedded with Arabic-SBERT-100K, averaged per surah, then
+  UMAP + HDBSCAN clustering on the 114 surah-level vectors.
+
+DATASET
+----------------------------------------
+  Surahs: 114
+  Ayat: 6236
+  Meccan: 86, Medinan: 28
+
+SIMILARITY
+----------------------------------------
+  n_surahs: 114
+  n_pairs: 6441
+  mean: 0.9315038919448853
+  std: 0.06681162863969803
+  min: 0.7354738712310791
+  max: 0.9999815225601196
+  median: 0.9570183753967285
+
+CLUSTERING
+----------------------------------------
+  n_clusters: 8
+  n_outliers: 3
+  silhouette: 0.715386152267456
+
+MECCAN/MEDINAN ALIGNMENT
+----------------------------------------
+  Adjusted Rand Index vs Meccan/Medinan: 0.107
+  (0 = clusters unrelated to revelation period, 1 = perfect match)
+
+  Per-cluster purity:
+ cluster  size majority_type   purity
+       0    22        Meccan 1.000000
+       1    31        Meccan 0.935484
+       2    10        Meccan 0.800000
+       3     7        Meccan 0.571429
+       4     8        Meccan 1.000000
+       5     9        Meccan 0.777778
+       6    14       Medinan 0.714286
+       7    10       Medinan 0.800000
+
+RANDOMIZATION TEST
+----------------------------------------
+  Actual clusters: 8
+  Shuffled mean: 11.4 +/- 4.3 (over 50 shuffles)
+
+WHAT THIS DOES AND DOES NOT SHOW
+----------------------------------------
+  - This measures WRITING-STYLE similarity/difference between
+    surahs, and checks if that lines up with the already-known
+    Meccan/Medinan classification (a low ARI vs. Meccan/Medinan
+    just means clusters follow some OTHER pattern, not that
+    they are meaningless).
+  - It does NOT determine authorship. Single authors commonly
+    show large stylistic shifts across years/contexts; shared
+    style across decades is also common. Clustering alone
+    cannot distinguish between these explanations.
+  - The randomization test only tells you whether the observed
+    cluster structure exceeds what noise alone would produce --
+    it does not speak to WHY that structure exists.
+

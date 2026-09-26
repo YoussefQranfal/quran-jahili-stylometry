@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Arabic-SBERT-100K (current)",
+    "model_id": "akhooli/Arabic-SBERT-100K",
+    "dim": 768,
+    "similarity": {
+      "mean": 0.8002776503562927,
+      "std": 0.2360076904296875,
+      "min": 0.010415656492114067,
+      "max": 1.0,
+      "median": 0.8916072845458984,
+      "q25": 0.7321245670318604,
+      "q75": 0.9816993474960327,
+      "iqr": 0.24957478046417236
+    },
+    "clustering": {
+      "n_clusters": 10,
+      "n_outliers": 62,
+      "silhouette": 0.47138530015945435,
+      "calinski_harabasz": 420.7533931976808,
+      "davies_bouldin": 0.6553556736939975
+    },
+    "embed_time_s": 34.0
+  },
+  {
+    "name": "Multilingual-MiniLM (384d)",
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dim": 384,
+    "similarity": {
+      "mean": 0.8697206974029541,
+      "std": 0.08674248307943344,
+      "min": 0.19471482932567596,
+      "max": 0.9981914758682251,
+      "median": 0.8829046487808228,
+      "q25": 0.825213611125946,
+      "q75": 0.9344295859336853,
+      "iqr": 0.10921597480773926
+    },
+    "clustering": {
+      "n_clusters": 7,
+      "n_outliers": 95,
+      "silhouette": 0.37834545969963074,
+      "calinski_harabasz": 325.5975751233176,
+      "davies_bouldin": 0.8551470839905121
+    },
+    "embed_time_s": 40.2
+  },
+  {
+    "name": "Multilingual-mpnet (768d)",
+    "model_id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "dim": 768,
+    "similarity": {
+      "mean": 0.9070708155632019,
+      "std": 0.063262939453125,
+      "min": 0.44003328680992126,
+      "max": 0.9988155961036682,
+      "median": 0.9205127954483032,
+      "q25": 0.8734886646270752,
+      "q75": 0.955414354801178,
+      "iqr": 0.08192569017410278
+    },
+    "clustering": {
+      "n_clusters": 8,
+      "n_outliers": 88,
+      "silhouette": 0.2543383836746216,
+      "calinski_harabasz": 35.75841579085853,
+      "davies_bouldin": 0.9956357625688893
+    },
+    "embed_time_s": 43.4
+  },
+  {
+    "name": "Multilingual-E5-large (1024d)",
+    "model_id": "intfloat/multilingual-e5-large",
+    "dim": 1024,
+    "similarity": {
+      "mean": 0.9731078147888184,
+      "std": 0.016476472839713097,
+      "min": 0.8775362968444824,
+      "max": 0.9995705485343933,
+      "median": 0.9759847521781921,
+      "q25": 0.9632769227027893,
+      "q75": 0.985636293888092,
+      "iqr": 0.022359371185302734
+    },
+    "clustering": {
+      "n_clusters": 3,
+      "n_outliers": 8,
+      "silhouette": 0.6052988171577454,
+      "calinski_harabasz": 596.1091562087877,
+      "davies_bouldin": 0.4880128328810461
+    },
+    "embed_time_s": 93.3
+  }
+]

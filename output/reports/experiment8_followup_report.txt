@@ -1,0 +1,48 @@
+======================================================================
+EXPERIMENT 8 FOLLOW-UP: FULL CLUSTER MEMBERSHIP
+======================================================================
+
+Q1: SURAHS AND POETS IN EACH CLUSTER
+----------------------------------------
+
+OUTLIERS (3 surahs, 0 poets)
+  Surahs: 14:Ibrahim; 26:Ash-Shu'araa; 72:Al-Jinn
+
+Cluster 0 (0 surahs, 35 poets)
+  Poets: أحيحة بن الجلاح; أوس بن حجر; الأسود النهشلي; الأفوة الأودي; الحارث بن حلزة; الخنساء; السموأل; الشنفرى; الطفيل الغنوي; الفند الزماني; المتلمس الضبعي; المثقب العبدي; المرقش الأكبر; المسيب بن علس; النابغة الذبياني; امرؤ القيس; بشر بن أبي خازم; تأبط شراً; حاتم الطائي; حاجز الأزدي; دريد بن الصمة; ذو الإصبع العدواني; زهير بن أبي سلمى; زيد الخيل الطائي; سلامة بن جندل; صيفي الأسلت; طرفة بن العبد; عدي بن ربيعة; عدي بن زيد; عروة بن الورد; علقمة الفحل; عمرو بن قميئة; عمرو بن كلثوم; عنترة بن شداد; قيس بن الحدادية
+
+Cluster 1 (22 surahs, 0 poets)
+  Surahs: 1:Al-Faatiha; 56:Al-Waaqia; 74:Al-Muddaththir; 77:Al-Mursalaat; 78:An-Naba; 79:An-Naazi'aat; 80:Abasa; 81:At-Takwir; 85:Al-Burooj; 86:At-Taariq; 87:Al-A'laa; 88:Al-Ghaashiya; 90:Al-Balad; 91:Ash-Shams; 92:Al-Lail; 94:Ash-Sharh; 96:Al-Alaq; 100:Al-Aadiyaat; 101:Al-Qaari'a; 102:At-Takaathur; 107:Al-Maa'un; 114:An-Naas
+
+Cluster 2 (10 surahs, 0 poets)
+  Surahs: 19:Maryam; 20:Taa-Haa; 23:Al-Muminoon; 36:Yaseen; 38:Saad; 43:Az-Zukhruf; 50:Qaaf; 71:Nooh; 76:Al-Insaan; 110:An-Nasr
+
+Cluster 3 (26 surahs, 0 poets)
+  Surahs: 2:Al-Baqara; 4:An-Nisaa; 5:Al-Maaida; 6:Al-An'aam; 8:Al-Anfaal; 9:At-Tawba; 10:Yunus; 11:Hud; 13:Ar-Ra'd; 24:An-Noor; 31:Luqman; 33:Al-Ahzaab; 35:Faatir; 42:Ash-Shura; 46:Al-Ahqaf; 48:Al-Fath; 49:Al-Hujuraat; 57:Al-Hadid; 58:Al-Mujaadila; 59:Al-Hashr; 60:Al-Mumtahana; 62:Al-Jumu'a; 63:Al-Munaafiqoon; 64:At-Taghaabun; 65:At-Talaaq; 66:At-Tahrim
+
+Cluster 4 (8 surahs, 0 poets)
+  Surahs: 15:Al-Hijr; 44:Ad-Dukhaan; 51:Adh-Dhaariyat; 52:At-Tur; 54:Al-Qamar; 68:Al-Qalam; 73:Al-Muzzammil; 97:Al-Qadr
+
+Cluster 5 (22 surahs, 0 poets)
+  Surahs: 37:As-Saaffaat; 53:An-Najm; 55:Ar-Rahmaan; 69:Al-Haaqqa; 70:Al-Ma'aarij; 75:Al-Qiyaama; 82:Al-Infitaar; 83:Al-Mutaffifin; 84:Al-Inshiqaaq; 89:Al-Fajr; 93:Ad-Dhuhaa; 95:At-Tin; 99:Az-Zalzala; 103:Al-Asr; 104:Al-Humaza; 105:Al-Fil; 106:Quraish; 108:Al-Kawthar; 109:Al-Kaafiroon; 111:Al-Masad; 112:Al-Ikhlaas; 113:Al-Falaq
+
+Cluster 6 (7 surahs, 0 poets)
+  Surahs: 3:Aal-i-Imraan; 12:Yusuf; 22:Al-Hajj; 28:Al-Qasas; 34:Saba; 41:Fussilat; 61:As-Saff
+
+Cluster 7 (6 surahs, 0 poets)
+  Surahs: 21:Al-Anbiyaa; 25:Al-Furqaan; 27:An-Naml; 47:Muhammad; 67:Al-Mulk; 98:Al-Bayyina
+
+Cluster 8 (10 surahs, 0 poets)
+  Surahs: 7:Al-A'raaf; 16:An-Nahl; 17:Al-Israa; 18:Al-Kahf; 29:Al-Ankaboot; 30:Ar-Room; 32:As-Sajda; 39:Az-Zumar; 40:Ghafir; 45:Al-Jaathiya
+
+Q2: OUTLIER COLOR
+----------------------------------------
+  Gray, in the original figure -- same convention used throughout
+  every experiment in this project.
+  The 3 outlier surahs: ['Surah 14: Ibrahim', "Surah 26: Ash-Shu'araa", 'Surah 72: Al-Jinn']
+
+Q3 and Q4: see the two new figures in output/figures/
+----------------------------------------
+  exp8_outliers_marked.png -- outliers as large red X markers
+  exp8_surah_numbers.png -- every surah labeled with its number
+

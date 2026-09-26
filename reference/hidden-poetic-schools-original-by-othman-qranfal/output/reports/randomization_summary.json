@@ -1,0 +1,6 @@
+{
+  "n_shuffles": 100,
+  "mean_clusters_shuffled": 6.55,
+  "std_clusters_shuffled": 5.318872440696809,
+  "mean_silhouette_shuffled": 0.4778043501637876
+}

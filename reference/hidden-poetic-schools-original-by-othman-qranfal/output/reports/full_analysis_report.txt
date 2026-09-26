@@ -1,0 +1,155 @@
+======================================================================
+HIDDEN STYLISTIC SCHOOLS OF PRE-ISLAMIC POETRY
+Full Analysis Report
+Generated: 2026-03-03 09:05
+======================================================================
+
+1. DATASET
+----------------------------------------
+  n_poems: 2328
+  n_poets: 260
+  median_word_count: 40.0
+  mean_word_count: 76.07817869415807
+  std_word_count: 101.22338847996753
+  median_verse_count: 8.0
+  mean_verse_count: 16.051546391752577
+  total_tokens: 177110
+  max_poems_per_poet: 157
+  min_poems_per_poet: 1
+  poets_with_one_poem: 125
+  poets_with_10plus: 54
+
+2. SIMILARITY STATISTICS (Proposed Method)
+----------------------------------------
+  NOTE: Computed on upper triangle of 260 x 260 matrix
+  Total pairs: 33670
+  Mean: 0.7986
+  Std:  0.2366
+  Min:  0.0094
+  Max:  1.0000
+  Range: [0.0094, 1.0000]
+
+3. CLUSTERING RESULTS
+----------------------------------------
+  silhouette: 0.4686238765716553
+  calinski_harabasz: 478.8544053312611
+  davies_bouldin: 0.6471684791642704
+  n_clusters: 12
+  n_outliers: 28
+  n_clustered: 232
+
+4. CLUSTER PROFILES
+----------------------------------------
+
+  Outliers (n=28)
+    Within similarity: 0.8613
+    Mean productivity: 5.6 poems/poet
+    Mean centrality: 0.8230
+    Top poets: عمرو بن كلثوم (43), طرفة بن العبد (34), السموأل (15), صخر الغي (13), الأضبط السعدي (5)
+
+  Cluster 0 (n=27)
+    Within similarity: 0.5369
+    Mean productivity: 5.0 poems/poet
+    Mean centrality: 0.4092
+    Top poets: بلعاء بن قيس الكناني (23), الحارث بن ظالم المري (20), ذو الإصبع العدواني (20), صيفي الأسلت (20), الربيع بن زياد العبسي (9)
+
+  Cluster 1 (n=5)
+    Within similarity: 0.8951
+    Mean productivity: 3.4 poems/poet
+    Mean centrality: 0.8406
+    Top poets: بشامة بن الغدير (11), أبو الفضل الكناني (2), الهيفاء بنت صبيح القضاعية (2), آمنة بنت عتيبة (1), تماضر بنت الشريد (1)
+
+  Cluster 2 (n=6)
+    Within similarity: 0.9492
+    Mean productivity: 1.2 poems/poet
+    Mean centrality: 0.8619
+    Top poets: عبد يغوث الحارثي (2), أسماء التغلبية (1), ابنة حكيم بن عمرو العبدية (1), الأسلوم اليامي (1), الحارث بن مر (1)
+
+  Cluster 3 (n=68)
+    Within similarity: 0.8337
+    Mean productivity: 4.7 poems/poet
+    Mean centrality: 0.8005
+    Top poets: الأسود النهشلي (71), حاجز الأزدي (29), سلامة بن جندل (25), المرقش الأكبر (20), الجميح الأسدي (14)
+
+  Cluster 4 (n=11)
+    Within similarity: 0.9874
+    Mean productivity: 2.9 poems/poet
+    Mean centrality: 0.8736
+    Top poets: الزفيان (13), السفاح التغلبي (6), جحيش الهمداني (3), ابو دُاود الإيادي (2), جبلة بن الحارث (2)
+
+  Cluster 5 (n=12)
+    Within similarity: 0.9460
+    Mean productivity: 1.2 poems/poet
+    Mean centrality: 0.8419
+    Top poets: أبو اللحام التغلبي (3), أبو حية الفزاري (1), أبو عدي النمري (1), أربد الذبياني (1), أروى بنت الحباب (1)
+
+  Cluster 6 (n=20)
+    Within similarity: 0.9928
+    Mean productivity: 2.6 poems/poet
+    Mean centrality: 0.8661
+    Top poets: السليك بن السلكة (17), سنان المري (8), نهيكة الفزاري (4), هند بنت الخس (4), الكلحبة العرني (2)
+
+  Cluster 7 (n=16)
+    Within similarity: 0.9922
+    Mean productivity: 25.6 poems/poet
+    Mean centrality: 0.8822
+    Top poets: عدي بن زيد (157), الخنساء (99), امرؤ القيس (64), أحيحة بن الجلاح (32), الشنفرى (26)
+
+  Cluster 8 (n=20)
+    Within similarity: 0.9950
+    Mean productivity: 21.1 poems/poet
+    Mean centrality: 0.8801
+    Top poets: عنترة بن شداد (142), دريد بن الصمة (73), زهير بن أبي سلمى (53), عدي بن ربيعة (51), علقمة الفحل (24)
+
+  Cluster 9 (n=25)
+    Within similarity: 0.9902
+    Mean productivity: 20.3 poems/poet
+    Mean centrality: 0.8732
+    Top poets: النابغة الذبياني (80), زيد الخيل الطائي (66), تأبط شراً (55), حاتم الطائي (54), أوس بن حجر (53)
+
+  Cluster 10 (n=13)
+    Within similarity: 0.9973
+    Mean productivity: 11.1 poems/poet
+    Mean centrality: 0.8747
+    Top poets: بشر بن أبي خازم (51), المسيب بن علس (31), المثقب العبدي (22), مالك بن حريم الهمداني (13), الحارث بن عباد (10)
+
+  Cluster 11 (n=9)
+    Within similarity: 0.9648
+    Mean productivity: 12.6 poems/poet
+    Mean centrality: 0.8661
+    Top poets: عمرو بن قميئة (33), الأفوة الأودي (28), الحارث بن حلزة (17), الخرنق بنت بدر (15), قس بن ساعدة (11)
+
+5. BASELINE COMPARISON
+----------------------------------------
+      method  n_clusters  n_outliers  silhouette
+      TF-IDF           3          10    0.441816
+Char n-grams           3           1    0.703527
+  NMF Topics          21          16    0.816537
+
+6. VALIDATION
+----------------------------------------
+
+  Stability:
+    Runs: 64
+    ARI: 0.500 +/- 0.249
+    NMI: 0.676 +/- 0.155
+    Clusters range: 2 - 17
+
+  Randomization:
+    Shuffles: 100
+    Shuffled avg clusters: 6.5 +/- 5.3
+    Shuffled avg silhouette: 0.4778
+
+  Metadata Enrichment:
+    Cluster 1 (n=5): dominant tribe=Unknown (80%)
+    Cluster 3 (n=68): dominant tribe=Unknown (85%)
+    Cluster 0 (n=27): dominant tribe=Unknown (78%)
+    Cluster 10 (n=13): dominant tribe=Unknown (54%)
+    Cluster 5 (n=12): dominant tribe=Unknown (50%)
+    Cluster 6 (n=20): dominant tribe=Unknown (40%)
+    Cluster 4 (n=11): dominant tribe=Unknown (36%)
+    Cluster 11 (n=9): dominant tribe=Unknown (78%), Mu'allaqat: الحارث بن حلزة
+    Cluster 7 (n=16): dominant tribe=Unknown (81%), Mu'allaqat: امرؤ القيس, elegists: الخنساء
+    Cluster 9 (n=25): dominant tribe=Unknown (52%)
+    Cluster 2 (n=6): dominant tribe=Unknown (83%)
+    Cluster 8 (n=20): dominant tribe=Unknown (75%), Mu'allaqat: زهير بن أبي سلمى, عنترة بن شداد, warriors: عنترة بن شداد

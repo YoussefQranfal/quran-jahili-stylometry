@@ -1,0 +1,12 @@
+Cluster 1 (n=5): dominant tribe=Unknown (80%)
+Cluster 3 (n=68): dominant tribe=Unknown (85%)
+Cluster 0 (n=27): dominant tribe=Unknown (78%)
+Cluster 10 (n=13): dominant tribe=Unknown (54%)
+Cluster 5 (n=12): dominant tribe=Unknown (50%)
+Cluster 6 (n=20): dominant tribe=Unknown (40%)
+Cluster 4 (n=11): dominant tribe=Unknown (36%)
+Cluster 11 (n=9): dominant tribe=Unknown (78%), Mu'allaqat: الحارث بن حلزة
+Cluster 7 (n=16): dominant tribe=Unknown (81%), Mu'allaqat: امرؤ القيس, elegists: الخنساء
+Cluster 9 (n=25): dominant tribe=Unknown (52%)
+Cluster 2 (n=6): dominant tribe=Unknown (83%)
+Cluster 8 (n=20): dominant tribe=Unknown (75%), Mu'allaqat: زهير بن أبي سلمى, عنترة بن شداد, warriors: عنترة بن شداد

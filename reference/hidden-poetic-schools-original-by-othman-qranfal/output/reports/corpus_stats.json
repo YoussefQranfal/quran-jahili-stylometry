@@ -1,0 +1,14 @@
+{
+  "n_poems": 2328,
+  "n_poets": 260,
+  "median_word_count": 40.0,
+  "mean_word_count": 76.07817869415807,
+  "std_word_count": 101.22338847996753,
+  "median_verse_count": 8.0,
+  "mean_verse_count": 16.051546391752577,
+  "total_tokens": 177110,
+  "max_poems_per_poet": 157,
+  "min_poems_per_poet": 1,
+  "poets_with_one_poem": 125,
+  "poets_with_10plus": 54
+}

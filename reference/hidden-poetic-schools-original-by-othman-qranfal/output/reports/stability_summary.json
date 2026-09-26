@@ -1,0 +1,10 @@
+{
+  "n_runs": 64,
+  "mean_ari": 0.5000804691475937,
+  "std_ari": 0.24855718957171719,
+  "mean_nmi": 0.6762940021602444,
+  "std_nmi": 0.15545950002527764,
+  "min_clusters": 2,
+  "max_clusters": 17,
+  "median_clusters": 9.0
+}
